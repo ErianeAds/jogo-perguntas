@@ -1,0 +1,76 @@
+.card {
+    
+    padding: 30px;
+    border-radius: 10px;
+
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .correct {
+    background-color: #4caf50;
+  }
+  
+  .correct:hover {
+    background-color: #43a047;
+  }
+  
+  .wrong {
+    background-color: #f44336;
+  }
+  
+  .wrong:hover {
+    background-color: #e53935;
+  }
+  
+  .skip {
+    background-color: #2196f3;
+  }
+  
+  .skip:hover {
+    background-color: #1976d2;
+  }
+
+  .button-group {
+    margin-top: 10px; /* Ajuste conforme necessário */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .question-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85); /* Opcional para dar contraste */
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
